@@ -1,0 +1,72 @@
+
+.inicio {
+    background: url(imagen\ imagen.png) no-repeat; 
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    color: #b90dee;
+    padding : 110px ;
+    text-align: left;
+    
+
+}
+
+.inicio h1 {
+    
+    font-size: 60pt;
+    line-height: 60pt;
+    margin-bottom: 30pt;
+    font: helvetica bold;
+    
+}
+
+.inicio2 h2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form * {
+    background-color: rgb(245, 201, 222);
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+#nombre {
+    color: #bc2ec946;
+    font-weight: bold; 
+}
+
+
+.contacto-container {
+    margin-top: 570px; 
+    position: absolute;
+    left: 110px;
+    text-align: center; 
+}
+
+.btn btn-primary {
+    background-color: #610652;
+    color: #e093e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.footer {
+    background: #cf0f79;
+    color: #d444e7;
+    text-align: center;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#telefono {
+    font-size: 16px; 
+    color: #4e0d4e; 
+}

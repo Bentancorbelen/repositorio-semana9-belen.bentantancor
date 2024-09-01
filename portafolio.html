@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Belen Bentancor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <section class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4">Bienvenidos, mi nombre es <br> <span id="nombre" class="font-weight-bold">Belen <br> Bentancor</span></h1>
+        </div>
+
+        <section class="mt-4">
+            <div class="text-center">
+                <h2>Soy estudiante de la carrera contador público y también de la carrera ingeniería en computación. Actualmente me encuentro trabajando en una empresa de venta de tecnología llamada Cover Company y cursando Jóvenes a Programar.</h2>
+            </div>
+            
+            <div class="text-center mt-4">
+                <img src="imagen.png" class="img-fluid" alt="Imagen de Belen Bentancor">
+            </div>
+
+            <form class="mt-4 mx-auto" style="max-width: 600px;">
+                <div class="form-group">
+                    <label for="nom">Nombre:</label>
+                    <input type="text" class="form-control" id="nom" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apdos">Apellidos:</label>
+                    <input type="text" class="form-control" id="apdos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="corr">Correo:</label>
+                    <input type="email" class="form-control" id="corr" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Escribe aquí tu mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Contactar</button>
+            </form>
+        </section>
+
+        <footer class="text-center mt-5">
+            <p>¡No dudes en ponerte en contacto conmigo!</p>
+            <p id="telefono">Número de contacto: 095760192<br>Correo: bentancorbelen2003@gmail.com</p>
+        </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
